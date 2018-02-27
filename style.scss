@@ -1,0 +1,64 @@
+/*--GENERAL--*/
+$font1: 'Acme', sans-serif;
+$font2: 'Nanum Brush Script', cursive;
+$blue1: #15c6c6;
+$blue2: #1515c6;
+$red1: #c61515;
+$red2: #8b0000;
+$green: #15c615;
+$yellow: #ffff00;
+
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+/*--NAVIGATION--*/
+nav {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+	h1 {
+		color: $red2;
+	}
+	h2 {
+		color: $blue2;
+	}
+}
+
+/*--BODY--*/
+
+[class*="container-"] {
+	background-color: $blue1;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	p {	
+		font-family: $font1;
+		font-size: 24px;
+	}
+}
+
+
+
+/*FOOTER--*/
+
+footer {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	height: 50px;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	p {
+		color: $red1;
+		font-family: $font2;
+		font-size: 30px;
+	}
+}
