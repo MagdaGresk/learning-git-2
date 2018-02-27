@@ -1,6 +1,7 @@
 /*--GENERAL--*/
 $font1: 'Acme', sans-serif;
 $font2: 'Nanum Brush Script', cursive;
+$font3: 'Planquin Dark';
 $blue1: #15c6c6;
 $blue2: #1515c6;
 $red1: #c61515;
@@ -19,14 +20,18 @@ body {
 nav {
 	background-color: black;
 	display: flex;
+	font-family: $font3;
 	flex-direction: column;
 	justify-content: center;
 	padding: 20px;
 	h1 {
 		color: $red2;
+		font-size: 48px;
+		text-transform: uppercase;
 	}
 	h2 {
 		color: $blue2;
+		font-size: 36px;
 	}
 }
 
