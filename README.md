@@ -1,1 +1,1 @@
-# learning-git-2
+# https://magdagresk.github.io/learning-git-2/
